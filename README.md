@@ -9,10 +9,22 @@
 docker build -t ramonlo-tienda:1.0 .
 ```
 
+#Cómo descargar la imagen desde Docker Hub
+
+```bash
+docker pull ramonorjales/ramonlo-tienda:1.0
+```
+
 #Como ejecutarla
 
 ```bash
 docker run --rm ramonlo-tienda:1.0
+```
+
+O usando la imagen de Docker Hub:
+
+```bash
+docker run --rm ramonorjales/ramonlo-tienda:1.0
 ```
 
 #Variables de entorno soportadas
